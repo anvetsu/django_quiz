@@ -10,6 +10,8 @@ This is a fork of Tom Walker's [Django Quiz Project](https://github.com/tomwalke
 5. Fix URL dispatching to not use `patterns`
 6. Make it work with Python3, specifically tested on `Python3.6.6`
 7. Modified `test_settings.py` for Django 1.11.16
+8. Replaced deprecated `CommaSeparatedIntegerField` with `CharField` and the `validate_comma_separated_integer_list` validator.
+
 8. Moved licensing to `LICENSE` file
 
 ## Install
